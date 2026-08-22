@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: email-spam-detector
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
