@@ -1,5 +1,3 @@
-"""A deployable, dependency-free web interface for the spam detector."""
-
 from __future__ import annotations
 
 import html
