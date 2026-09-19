@@ -79,7 +79,7 @@ Then open `http://localhost:8080`.
 ### Deploy to Render
 
 1. Create a new GitHub repository and upload this whole `email-spam-detector` folder.
-2. In Render, create a new **Web Service**, connect the repository, and choose the Docker runtime. Render will use the included `Dockerfile`.
+2. In Render, create a new **Web Service**, connect the repository and choose the Docker runtime. Render will use the included `Dockerfile`.
 3. Leave the service port to the platform. The app reads its port from the `PORT` environment variable.
 4. Deploy. The `/health` endpoint is included for the platform's health check.
 5. Open the URL Render gives you and test one ham and one spam example.
